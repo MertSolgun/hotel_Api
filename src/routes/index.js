@@ -5,6 +5,6 @@ router.use("/reservation", require("./reservation"));
 router.use("/room", require("./room"));
 router.use("/token", require("./token"));
 router.use("/auth", require("./auth"));
-router.use("/documents", require("./document"));
+router.use("/document", require("./document"));
 
 module.exports = router;

@@ -25,9 +25,9 @@ app.all("/", (req, res) => {
     error: false,
     message: "Welcome to Hotel API",
     docs: {
-      swagger: "https://hotel-api-6rbb.onrender.com/documents/swagger",
-      redoc: "https://hotel-api-6rbb.onrender.com/documents/redoc",
-      json: "https://hotel-api-6rbb.onrender.com/documents/json",
+      swagger: "https://hotel-api-6rbb.onrender.com/document/swagger",
+      redoc: "https://hotel-api-6rbb.onrender.com/document/redoc",
+      json: "https://hotel-api-6rbb.onrender.com/document/json",
     },
     user: req.user,
   });
