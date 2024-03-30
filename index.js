@@ -22,7 +22,13 @@ app.use(require("./src/middlewares/authentication"));
 
 app.all("/", (req, res) => {
   res.send({
-    message: "Welcome Hotel",
+    error: false,
+    message: "Welcome to Hotel API",
+    docs: {
+      swagger: "/documents/swagger",
+      redoc: "/documents/redoc",
+      json: "/documents/json",
+    },
     user: req.user,
   });
 });
